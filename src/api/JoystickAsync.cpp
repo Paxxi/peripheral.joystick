@@ -20,7 +20,7 @@
 #include "JoystickAsync.h"
 
 using namespace JOYSTICK;
-using namespace P8PLATFORM;
+using namespace PLATFORM;
 
 CJoystickAsync::CJoystickAsync(const std::string& strProvider)
   : CJoystick(strProvider)

@@ -43,7 +43,7 @@
 #include <algorithm>
 
 using namespace JOYSTICK;
-using namespace P8PLATFORM;
+using namespace PLATFORM;
 
 // --- Utility functions -------------------------------------------------------
 

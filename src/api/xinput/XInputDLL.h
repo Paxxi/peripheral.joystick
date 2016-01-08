@@ -19,7 +19,7 @@
  */
 #pragma once
 
-#include "p8-platform/threads/mutex.h"
+#include "platform/threads/mutex.h"
 
 #include <string>
 #include <windows.h>
@@ -87,6 +87,6 @@ namespace JOYSTICK
     FnXInputGetState        m_getState;
     FnXInputSetState        m_setState;
     FnXInputGetCapabilities m_getCaps;
-    P8PLATFORM::CMutex        m_mutex;
+    PLATFORM::CMutex        m_mutex;
   };
 }
